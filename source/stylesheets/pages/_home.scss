@@ -64,7 +64,7 @@ Form Animation
   @include span-columns(6 of 12);
   outline: none;
   @include transition(all 0.3s ease-in-out);
-  @include s-base;
+  @include s-small;
 
   &.inactive-button{
     background-color: $grey-light;
@@ -107,7 +107,7 @@ Progress Bar
     color: white;
     text-transform: uppercase;
     font-size: 9px;
-    width: calc(100%/15);
+    width: calc(100%/13);
     float: left;
     position: relative;
   }
@@ -256,5 +256,16 @@ small{
 
   a{
     font-weight: normal;
+  }
+}
+
+.wrapper{
+  table{
+    margin: 0 auto;
+
+    td{
+      padding: 5px 20px ;
+      @include s-medium;
+    }
   }
 }

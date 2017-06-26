@@ -365,6 +365,9 @@ $standard-font: normal 400 18px 'PT Sans', sans-serif;
   font-size: 18px;
   line-height: 49px;
   cursor: pointer;
+  width: 100%;
+  font-weight: normal;
+
   &:hover .inner {
     @include transform(scale(.5));
     opacity: .5;
